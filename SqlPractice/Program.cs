@@ -87,3 +87,4 @@ using (var con = Database.GetConnection())
 #endregion
 
 DapperThings.DapperPivot();
+DapperThings.DapperJoins();
