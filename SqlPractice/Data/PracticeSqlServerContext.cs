@@ -6,6 +6,7 @@ namespace SqlPractice.Data;
 public class PracticeSqlServerContext: PracticeSqliteContext
 {
     public DbSet<Good> Goods { get; set; }
+    public DbSet<Shift> Shifts { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

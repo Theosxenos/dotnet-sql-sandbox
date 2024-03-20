@@ -88,3 +88,6 @@ using (var con = Database.GetConnection())
 
 DapperThings.DapperPivot();
 DapperThings.DapperJoins();
+
+// SqlServerEfTimespan.Add();
+Console.WriteLine(SqlServerEfTimespan.Get());
